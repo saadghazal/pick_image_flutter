@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
                 }
                 return CircleAvatar(
                   radius: 60,
-                  backgroundImage:  state.pickedImagePath.isEmpty?null:FileImage(File(state.pickedImagePath)),
+                  backgroundImage:  state.pickedImagePath.isEmpty?const AssetImage('assets/user-3.png') as ImageProvider:FileImage(File(state.pickedImagePath)),
 
                 );
               },

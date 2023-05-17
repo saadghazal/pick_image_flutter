@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider<PickImageCubit>(
       create: (context) => PickImageCubit(imagePicker: ImagePicker()),
       child: MaterialApp(
-        title: 'Image Pick',
+        title: 'Image Picker',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
